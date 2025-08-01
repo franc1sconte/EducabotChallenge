@@ -91,7 +91,7 @@ En este caso https://www.saucedemo.com no posee una documentación publica, pero
    - Tiempo de respuesta (Generalmente detallado en "ms", una respuesta con altos "ms" puede traducirse en lentitud en la pagina/sistema
    - Resultado de validaciones incluidas en los scripts de prueba (imagen adjuntada con ejemplo básico)
    
-   ![Captura](./screenshots/Others/scriptsPostman.jpg)
+   ![Captura](../screenshots/Others/scriptsPostman.jpg)
 
 
 ---
@@ -121,5 +121,5 @@ Al tenerlo en postman, se pueden guardar las colecciones para reutilizarlas cuan
 
 ## Observación final
 
-Aunque saucedemo.com no ofrece una API REST documentada, este es mas o menos la metodología que utilizaría en un entorno real. En un entorno real, además integraría estas pruebas en pipelines de CI/CD y combinaría tests manuales con automatizados con Cypress.
+Aunque saucedemo.com no ofrece una API REST documentada, esta es mas o menos la metodología que utilizaría en un entorno real. En un entorno real, además integraría estas pruebas en pipelines de CI/CD y combinaría tests manuales con automatizados con Cypress.
 
