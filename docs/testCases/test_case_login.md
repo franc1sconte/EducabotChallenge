@@ -10,7 +10,7 @@
 
 ## 🔢 Caso de Prueba 1: [Login con credenciales correctas]
 
-- **ID:** TC_[LOGIN]_01
+- **ID:** TC_LOGIN_01
 
 - **Descripción:** [Caso POSITIVO] Dado los datos de login correctos, deberiamos de: poder iniciar sesion ingresado
 el user correcto en el input (placeholder: "Username") y la pass en el input (placeholder: "Password") para luego clickear en el botón de "Login" para que finalmente nos redirija a la sección de /inventory.html correctamente.
@@ -42,7 +42,7 @@ el user correcto en el input (placeholder: "Username") y la pass en el input (pl
 
 ## 🔢 Caso de Prueba 2: [Login fallido con credenciales incorrectas]
 
-- **ID:** TC_[LOGIN]_02
+- **ID:** TC_LOGIN_02
 
 - **Descripción:** [Caso NEGATIVO] Dado los datos de login incorrectos, deberiamos de: NO poder iniciar sesion ingresado credenciales incorrectas en el input (placeholder: "Username") y la pass en el input (placeholder: "Password") para luego clickear en el botón de "Login" para que finalmente nos salte un tooltip especificando que las credenciales ingresadas son incorrectas.
 
@@ -73,7 +73,7 @@ el user correcto en el input (placeholder: "Username") y la pass en el input (pl
 
 ## 🔢 Caso de Prueba 3: [Login fallido sin ingresar credenciales]
 
-- **ID:** TC_[LOGIN]_03
+- **ID:** TC_LOGIN_03
 
 - **Descripción:** [Caso NEGATIVO] Dado los datos de login nulos, deberiamos de: NO poder iniciar sesion sin ingresar credenciales en el input (placeholder: "Username") y la pass en el input (placeholder: "Password") para luego clickear en el botón de "Login" para que finalmente nos salte un tooltip especificando que credenciales faltan para completar el login.
 

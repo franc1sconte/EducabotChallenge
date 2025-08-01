@@ -1,4 +1,4 @@
-# ✅ Casos de Prueba - [Login]
+# ✅ Casos de Prueba - [Carrito de compras]
 
 ## Información General
 - **Funcionalidad:** [Carrito de compras]
@@ -10,7 +10,7 @@
 
 ## 🔢 Caso de Prueba 1: [Agregar multiples productos al carrito de compras]
 
-- **ID:** TC_[CART]_01
+- **ID:** TC_CART_01
 
 - **Descripción:**  Dado el catalogo de productos proporcionado por saucedemo, agregaremos 3 productos al carrito y validaremos que permita agregar multiples productos al carrito, ademas de validar que todas las caracteristicas de los productos no se vean alteradas al cargar estos productos al carrito.
 
@@ -45,7 +45,7 @@
 
 ## 🔢 Caso de Prueba 2: [Remover un producto del carrito de compras]
 
-- **ID:** TC_[CART]_02
+- **ID:** TC_CART_02
 
 - **Descripción:** Dado el catalogo de productos proporcionado por saucedemo, agregaremos 1 producto al carrito y validaremos que permita remover ese producto agregado al carrito, como asi también que el valor que muestra en el icono de "Cart" en la sección de /inventory.html disminuya y permita nuevamente agregar ese producto al carrito.
 
@@ -85,7 +85,7 @@
 
 ## 🔢 Caso de Prueba 3: [Generar flujo completo de compra de solo un producto]
 
-- **ID:** TC_[LOGIN]_03
+- **ID:** TC_CART_03
 
 - **Descripción:** Dado el catalogo de productos proporcionado por saucedemo, agregaremos 1 producto al carrito y validaremos que permita realizar el flujo completo de compra/generacion de pedido. 
 
