@@ -37,6 +37,8 @@ Se recomienda tener en cuenta los siguientes scripts/comandos para correr las pr
 
 1. Tener en cuenta la estructura de proyecto, si se quieren correr los scripts tanto para la ejecución de las pruebas automatizadas, como también para la generación de reportes, es neceario moverse a la carpeta de "automatizacion" desde la consola con "cd automatizacion" si es que nos encontramos "parados" en la carpeta de "educabotchallenge"
 
+[Path correcto] ..\EducabotChallenge\automatizacion
+
 2. npm run cypress:run   ==> comienza la corrida de todos los specs de prueba, tanto del carrito como de login en modo headless. Luego de que las pruebas finalicen se genera una carpeta reports con la informacion de c/u de los specs
 
 3. npm run report:full   ==> script que concatena dos scripts dentro, uno para mergear los archivos de reportes de c/u de los specs ejecutados, como asi tambien otro para generar un unico index.html para mostrar el reporte unificado de un mismo html de todos los specs de prueba. Sin correr este script, no generaremos el reporte unificado correctamente.
@@ -67,3 +69,25 @@ Dentro de la carpeta "automatizacion" encontraremos:
 
 
 *archivo stack.md* aqui encontraremos el stack técnico utilizado, además de una breve explicación del porque se uso este stack.
+
+---
+
+## Última seccion de "Importante"
+
+Se responden a las aclaraciones del final del documento-challenge:
+
+Multi-browser
+
+Cypress no permite ejecutar los tests en múltiples navegadores al mismo tiempo de forma nativa, por ende cree scripts por si se requiere correr en otro navegador.
+
+--
+
+Caso fallido
+
+Se hace fallar intencionalmente el "TC_CART_02 - Remover un producto del carrito de compras" para cumplir con la consigna. Este genera un screenshoot que podemos ver dentro de la carpeta cypress/screenshoots luego de que finaliza la ejecución.
+
+--
+
+Uso de herramientas externas - IA
+
+Se utilizo chat-gpt a base de prompts en todas las etapas del proyecto. Todas las respuestas fueron evaluadas en base a mi criterio para poder modificarlas, incluirlas e inlcuso en algunos casos descartalas ya que toda respuesta puede que nos sirva o no, dependiendo de nuestro ojo critico y profesional como QA. La IA es una herramienta de acompañamiento y ayuda. No de generación ciega.
