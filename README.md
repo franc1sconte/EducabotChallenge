@@ -43,6 +43,10 @@ Se recomienda tener en cuenta los siguientes scripts/comandos para correr las pr
 
 3. npm run report:full   ==> script que concatena dos scripts dentro, uno para mergear los archivos de reportes de c/u de los specs ejecutados, como asi tambien otro para generar un unico index.html para mostrar el reporte unificado de un mismo html de todos los specs de prueba. Sin correr este script, no generaremos el reporte unificado correctamente.
 
+## Donde encontrar el reporte unifcado final?
+
+Luego de que corra por primera vez los test automatizados (con npm run cypress:run) y luego de haber corrido el script de npm run report:full para la generacion de los reportes unificados, enctraremos dentro de la carpeta "reports" un archivo "index.html", podemos ejecutarlo con la extensión de "Live server" que provee visual studio para hostearla directamente y poder visualizar el reporte unificado.
+
 ---
 
 ## Explicaciones de la esctructura del proyecto
