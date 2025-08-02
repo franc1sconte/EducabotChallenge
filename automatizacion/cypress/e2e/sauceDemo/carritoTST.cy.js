@@ -7,7 +7,7 @@ import checkoutStepTwoPage from '../../support/carrito/checkoutStepTwoPage'
 import checkoutCompletePage from '../../support/carrito/checkoutCompletePage'
 
 
-describe('Carrito', () => {
+describe('Carrito de compras', () => {
   // --> Variables para traer asserts.json y datos.json de fixtures
   let asserts
   let datos

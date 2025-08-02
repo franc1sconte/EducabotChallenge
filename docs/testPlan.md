@@ -4,7 +4,7 @@
 **Aplicación:** https://www.saucedemo.com/  
 **Funcionalidades a testear:**  
 - Inicio de sesión  
-- Carrito de compras  
+- Carrito de compras (y su relacion con el inventario de productos)
 
 ## 2. Objetivo del Plan de Pruebas
 Validar el correcto funcionamiento de las funcionalidades críticas del sistema: login de usuarios y operación del carrito de compras, garantizando la integridad de la experiencia del usuario.
@@ -15,15 +15,17 @@ Validar el correcto funcionamiento de las funcionalidades críticas del sistema:
 - Mensajes de error de login  
 - Agregado y eliminado de productos del carrito  
 - Verificación de totales en el carrito
+- Flujo completo de checkout
 
 **Out of Scope:**  
-- Flujo completo de checkout  
+- Filtrado de productos en pagina de inventory  
 - Pruebas en dispositivos móviles
 
 ## 4. Requerimientos a testear
 - Validación de autenticación de usuarios
 - Comportamiento del carrito (agregar, eliminar, persistencia)
 - Mensajes de error y validaciones front-end
+- Funcionalidad de compra
 
 ## 5. Tipos de pruebas
 - Pruebas funcionales manuales
@@ -31,35 +33,20 @@ Validar el correcto funcionamiento de las funcionalidades críticas del sistema:
 - Smoke Testing
 - Regresión
 
-## 6. Criterios de entrada y salida
-**Entrada:**  
-- Acceso a la web  
-- Entorno funcional  
-- Casos de prueba definidos  
-
-**Salida:**  
-- Ejecución completa de los casos  
-- Reportes generados  
-- Capturas de errores identificados  
-
-## 7. Herramientas a utilizar
+## 6. Herramientas a utilizar
 - Navegador Chrome  
 - Cypress para automatización  
 - VSCode, Git, GitHub  
-- Capturas con Cypress o herramientas del sistema operativo  
+- Capturas con funcionalidad integrada de Cypress
+- Mochawesome para la generación de reportes
+- Mocha (integrado en Cypress) para la estructura de las pruebas
+- Chai (integrado en Cypress) para las aserciones
 
-## 8. Cronograma
+## 7. Cronograma
 - Día 1: Análisis, Test Plan, Casos de prueba manuales  
-- Día 2: Automatización y captura de errores  
-- Día 3: API test, revisión final, carga a GitHub
+- Día 2: Automatización, captura de errores, API test y generación de   reportes
+- Día 3: Revisión final, carga a GitHub con la version final
 
-## 9. Riesgos y mitigaciones
-| Riesgo | Mitigación |
-|--------|------------|
-| Problemas de red o sitio caído | Tener capturas y videos offline |
-| Falta de claridad en el alcance | Ajustar alcance con documentación y comentarios |
-| Automatización falla por cambios en el sitio | Validación constante y ajuste de selectores |
-
-## 10. Responsables
+## 8. Responsables
 **Tester:** Francisco Conte
 

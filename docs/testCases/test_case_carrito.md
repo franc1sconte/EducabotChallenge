@@ -30,8 +30,6 @@
   10. Validamos que existan 3 productos agregados al carrito.
   11. Validamos c/u de las caracteristicas de los productos agregados al carrito como: [nombre_producto] [descripcion_producto] y [precio_producto]
 
-- **Datos de prueba:**
-  - 
 
 - **Resultado esperado:**  
   Al agregar multiples productos al carrito, estos se agregan correctamente, como asi también su [nombre_producto] [descripcion_producto] y [precio_producto]
@@ -70,9 +68,6 @@
   16. Localizamos el icono de "Carrito" y validamos que no tiene ningun numero de preview, representando que no tiene productos agregados.
   17. Validamos que en la tarjeta de producto el cual removimos del carrito [Sauce Labs Bike Light] tiene el botón de "Add to cart" nuevamente. 
 
-
-- **Datos de prueba:**
-  - 
 
 - **Resultado esperado:**  
   Al remover un producto del carrito, este debe desaparecer, dejando vacio el carrito. Por otro lado al volver a la sección de /inventory.html la tarjeta de producto que removimos anteriormente, tiene que dejar agregar nuevamente al carrito a través del botón "Add to cart". Por último, el icono de "Carrito" no debe tener un numero como preview, ya que el carrito ahora se encuentra vacio.
@@ -118,8 +113,6 @@
   23. Localizamos el botón de "Back home" y clickeamos en el.
   24. Validamos que nos redirige a la sección de /inventory.html
 
-- **Datos de prueba:**
-  - 
 
 - **Resultado esperado:**  
   Al agregar un producto al carrito, este se muestra con su información correspondiente de manera correcta en todas las etapas de la generación de compra/pedido. Pudiendo finalmente completar la compra con exito.
