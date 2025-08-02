@@ -8,7 +8,7 @@
 
 ---
 
-## 🔢 Caso de Prueba 1: [Login con credenciales correctas]
+## Caso de Prueba 1: [Login con credenciales correctas]
 
 - **ID:** TC_LOGIN_01
 
@@ -40,7 +40,7 @@ el user correcto en el input (placeholder: "Username") y la pass en el input (pl
 
 ---
 
-## 🔢 Caso de Prueba 2: [Login fallido con credenciales incorrectas]
+## Caso de Prueba 2: [Login fallido con credenciales incorrectas]
 
 - **ID:** TC_LOGIN_02
 
@@ -71,7 +71,7 @@ el user correcto en el input (placeholder: "Username") y la pass en el input (pl
 
 ---
 
-## 🔢 Caso de Prueba 3: [Login fallido sin ingresar credenciales]
+## Caso de Prueba 3: [Login fallido sin ingresar credenciales]
 
 - **ID:** TC_LOGIN_03
 

@@ -1,0 +1,26 @@
+{
+  "name": "automatizacion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "npm run clean:reports && cypress run",
+    "test:chrome": "npm run clean:reports && cypress run --browser chrome",
+    "test:edge": "npm run clean:reports && cypress run --browser edge",
+    "clean:reports": "rimraf ./cypress/reports",
+    "report:merge": "npx mochawesome-merge ./cypress/reports/*.json --output ./cypress/reports/final-report.json",
+    "report:generate": "npx marge ./cypress/reports/final-report.json --reportDir ./cypress/reports --reportFilename index.html",
+    "report:full": "npm run report:merge && npm run report:generate"
+  },
+  "keywords": [],
+  "author": "Conte Francisco",
+  "license": "ISC",
+  "description": "Challenge QA para Educabot",
+  "devDependencies": {
+    "cypress": "^14.5.3",
+    "cypress-mochawesome-reporter": "^4.0.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "rimraf": "^6.0.1"
+  }
+}

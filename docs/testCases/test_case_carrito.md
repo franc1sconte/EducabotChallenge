@@ -8,7 +8,7 @@
 
 ---
 
-## 🔢 Caso de Prueba 1: [Agregar multiples productos al carrito de compras]
+## Caso de Prueba 1: [Agregar multiples productos al carrito de compras]
 
 - **ID:** TC_CART_01
 
@@ -43,7 +43,7 @@
 
 ---
 
-## 🔢 Caso de Prueba 2: [Remover un producto del carrito de compras]
+## Caso de Prueba 2: [Remover un producto del carrito de compras]
 
 - **ID:** TC_CART_02
 
@@ -59,15 +59,16 @@
   4. Localizar el boton de login y clickear en el.
   5. Localizar el catalogo de productos
   6. Localizar y agregar al carrito el siguiente producto: [Sauce Labs Bike Light] a través del boton de "Add to cart" en la misma tarjeta del producto
-  8. Localizar el boton de "Carrito" y clickear en el.
-  9. Validamos que nos redirige a la seccion de "/cart.html"
-  10. Validamos que solo exista el producto que agregamos en el carrito.
-  11. Localizamos el botón de "Remove" en la tarjeta de producto en el carrito y clickeamos en el.
-  12. Validamos que el carrito quede vacio ya que no deberia de aparecer el producto que removimos.
-  13. Localizamos y clickeamos en el botón de "Continue Shopping".
-  14. Validamos que nos redirija a la sección de /inventory.html
-  15. Localizamos el icono de "Carrito" y validamos que no tiene ningun numero de preview, representando que no tiene productos agregados.
-  16. Validamos que en la tarjeta de producto el cual removimos del carrito [Sauce Labs Bike Light] tiene el botón de "Add to cart" nuevamente. 
+  8. Validamos que el boton "Add to cart" ahora deberia de ser un botón que diga "Remove"
+  9. Localizar el boton de "Carrito" y clickear en el.
+  10. Validamos que nos redirige a la seccion de "/cart.html"
+  11. Validamos que solo exista el producto que agregamos en el carrito.
+  12. Localizamos el botón de "Remove" en la tarjeta de producto en el carrito y clickeamos en el.
+  13. Validamos que el carrito quede vacio ya que no deberia de aparecer el producto que removimos.
+  14. Localizamos y clickeamos en el botón de "Continue Shopping".
+  15. Validamos que nos redirija a la sección de /inventory.html
+  16. Localizamos el icono de "Carrito" y validamos que no tiene ningun numero de preview, representando que no tiene productos agregados.
+  17. Validamos que en la tarjeta de producto el cual removimos del carrito [Sauce Labs Bike Light] tiene el botón de "Add to cart" nuevamente. 
 
 
 - **Datos de prueba:**
@@ -83,7 +84,7 @@
 
 ---
 
-## 🔢 Caso de Prueba 3: [Generar flujo completo de compra de solo un producto]
+## Caso de Prueba 3: [Generar flujo completo de compra de solo un producto]
 
 - **ID:** TC_CART_03
 

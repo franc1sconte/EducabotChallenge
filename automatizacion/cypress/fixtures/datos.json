@@ -1,0 +1,27 @@
+{
+  "login": {
+    "credenciales": {
+      "usuario_correcto": "standard_user",
+      "password_correcto": "secret_sauce",
+      "usuario_incorrecto": "pepito",
+      "password_incorrecto": "incorrect_password"
+    }
+  },
+  "inventory": {
+    "productos": {
+      "producto_1": "Sauce Labs Backpack",
+      "producto_2": "Sauce Labs Bike Light",
+      "producto_3": "Sauce Labs Bolt T-Shirt",
+      "producto_4": "Sauce Labs Fleece Jacket",
+      "producto_5": "Sauce Labs Onesie",
+      "producto_6": "Test.allTheThings() T-Shirt (Red)"
+    }
+  },
+  "cart": {
+    "checkout": {
+      "first_name": "Pepito",
+      "last_name": "Perez",
+      "postal_code": "12345"
+    }
+  }
+}
