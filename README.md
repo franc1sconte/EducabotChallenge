@@ -25,11 +25,25 @@ Dentro de la carpeta "docs" encontraremos 3 carpetas;
 
 *archivo testPlan.md* como se pide en la seccion 1.1, se genera un test plan, en este caso en un archivo .md donde dentro encontraremos todo el plan de pruebas que se llevará a cabo a lo largo de todo el proyecto, como también información extra. La estructura fue generada por chat-gpt. Nuevamente aclaro que la estructura fue filtrada solo para mostrar información relevante en el contexto del challenge.
 
-
+---
 
 # Sección 2: Automatización de Pruebas
 
 *No se espcificaba, pero opté por crear una carpeta llamada "automatización" que englobe todo lo relacionado a la seccion N#2 del challenge, para mayor organización del repo.*
+
+⚠️ *Informacion Importante para correr las pruebas automatizadas* ⚠️
+
+Se recomienda tener en cuenta los siguientes scripts/comandos para correr las pruebas, como asi también la generación de los reportes (se explica c/u de los scripts mas adelante si se necesita):
+
+1. Tener en cuenta la estructura de proyecto, si se quieren correr los scripts tanto para la ejecución de las pruebas automatizadas, como también para la generación de reportes, es neceario moverse a la carpeta de "automatizacion" desde la consola con "cd automatizacion" si es que nos encontramos "parados" en la carpeta de "educabotchallenge"
+
+2. npm run cypress:run   ==> comienza la corrida de todos los specs de prueba, tanto del carrito como de login en modo headless. Luego de que las pruebas finalicen se genera una carpeta reports con la informacion de c/u de los specs
+
+3. npm run report:full   ==> script que concatena dos scripts dentro, uno para mergear los archivos de reportes de c/u de los specs ejecutados, como asi tambien otro para generar un unico index.html para mostrar el reporte unificado de un mismo html de todos los specs de prueba. Sin correr este script, no generaremos el reporte unificado correctamente.
+
+---
+
+## Explicaciones de la esctructura del proyecto
 
 Dentro de la carpeta "automatizacion" encontraremos:
 
