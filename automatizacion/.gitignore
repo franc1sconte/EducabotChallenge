@@ -1,0 +1,15 @@
+# Node
+node_modules/
+package-lock.json
+
+# Cypress outputs
+cypress/screenshots/
+cypress/videos/
+
+# Reportes
+automatizacion/reports/
+automatizacion/capturas_error/
+
+# Sistema
+.DS_Store
+.env
